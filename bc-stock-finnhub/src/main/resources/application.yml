@@ -1,0 +1,13 @@
+# String url = "https://www.finnhub.io/api/v1";
+server:
+  port: 8086
+
+api: 
+  finnhub:
+    domain: "www.finnhub.io"
+    version: "api/v1"
+    endpoints:
+      quote: "/quote"
+      profile: "/stock/profile2"
+      key: "cnhfaqpr01qhlsliuvq0cnhfaqpr01qhlsliuvqg"
+

@@ -1,0 +1,12 @@
+# String url = "https://api.coingecko.com/api/v3/coins/markets";
+server:
+  port: 8085
+
+api: 
+  coingecko:
+    domain: "api.coingecko.com"
+    version: "api/v3"
+    endpoints:
+      markets: "/coins/markets"
+      currency: "usd"
+      key: "CG-yFLXx3AdoAYUF8bxyn6XBUzY"
